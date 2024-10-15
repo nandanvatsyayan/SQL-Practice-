@@ -1,0 +1,14 @@
+create database books;
+use books;
+create table books (id integer primary key, name text, rating integer);
+insert into books values (1, "kite runner", 3);
+insert into books values (2, "from everything to nothing", 4);
+insert into books values (3, "The Power of Your Subconscious Mind", 4.5);
+insert into books values (4, "Take Control of Your Life", 4);
+insert into books values (5, "Thinking, Fast and Slow", 3);
+insert into books values(6, "The Psychology of Money", 3.5);
+insert into books values(7, "A Short History of Nearly Everything", 5);
+insert into books values (8, "Cosmos: A Personal Voyage", 4.5);
+insert into books values(9, "Billions & Billions: Thoughts on Life and Death at the Brink of the Millennium", 4);
+insert into books values (10, "Pale Blue Dot: A Vision of the Human Future in Space", 4.3);
+select * from books;
